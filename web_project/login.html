@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__main">
+            <h1>Войти</h1>
+            <img src="src/image/user_login.png" alt="Картинка не отобразилась" class="container__img">
+        </div>
+        <div class="login-block">
+            <form class="login-block__form">
+                <div class="login-block__form-block">
+                    <span class="login-block__form-text">Электропочта</span>
+                    <input id="login-input" type="email" class="login-block__form-input">
+                    <label for="login-input" class="login-block__form-help">Введите электропочту в формате *****@***.**</label>
+                </div>
+                <div class="login-block__form-block">
+                    <span class="login-block__form-text">Пароль</span>
+                    <div class="login-block__form-inputblock">
+                        <input type="password" class="login-block__form-input">
+                        <div  class="login-block__form-vector"></div>
+                    </div>
+                </div>
+                <button class="login-block__form-bth">Продолжить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

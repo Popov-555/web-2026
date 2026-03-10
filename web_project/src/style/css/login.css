@@ -1,0 +1,112 @@
+.container__main-h1 {
+    color: #222222;
+    font: bold 140px/180px "Golos-UI_Bold", sans-serif;
+    letter-spacing: -1.5px;
+    margin-bottom: -30px;
+    margin-left: -100px;
+}
+
+.img-cs {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 0;  
+}
+
+.container__main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 462px;
+   height: 501px;
+}
+
+.container__img {
+    width: 462px;
+    height: 501px;
+}
+
+.login-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+    width: 343px;
+    height: 251px;
+}
+
+.login-block__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 107px;
+    margin-top: 300px;   
+}
+
+.login-block__form-label {
+    font: normal 13px/16px "Golos-UI_VF", sans-serif;
+    letter-spacing: -0.08px;
+    color: #222222;
+}
+
+.login-block__form-text {
+    font: normal 15px/18px "Golos-UI_VF", sans-serif;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.login-block__form-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    font: normal 15px/18px "Golos-UI_VF", sans-serif;
+    width: 343px;
+    height: 44px;
+    background: #F2F3F5;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-block__form-bth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 343px;
+    height: 48px;
+    font: 500 16px/100% "Golos-UI_Medium", sans-serif;
+    background: #222222;
+    border-radius: 10px;
+}
+
+.login-block__form-help {
+    white-space: nowrap;
+    font: 400 13px/16px "Golos-UI_Regular", sans-serif;
+    letter-spacing: -0.08px;
+    color: #808080;
+}
+
+.login-block__form-inputblock {
+    display: flex;
+    width: 343px;
+}
+
+.login-block__form-vector {
+    display: flex;
+    margin: 10px 10px 0 -40px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    background-image: url(/src/image/img_glaz.svg);
+    border: none;
+}

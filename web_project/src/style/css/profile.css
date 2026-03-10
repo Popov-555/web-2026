@@ -1,0 +1,80 @@
+.profile-container {
+    display: flex;
+}
+
+.profile-container__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.profile-container__dop {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 6px;
+    width: 101px;
+    height: 30px;
+    background: #F2F3F5;
+    border-radius: 6px;
+}
+
+.profile-container__text {
+    width: auto;
+    height: 18px;
+    font: 400 15px/18px "Golos-UI_VF", sans-serif;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.profile-container__picture {
+    width: 16px;
+    height: 16px;
+}
+
+.profile-container__post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 975px;
+    margin: 0;
+    padding: 0;
+    gap: 2.48px;
+    box-sizing: border-box;
+}
+
+.profile-container_image-post {
+    width: 322.35px;
+    height: 322.35px;
+    background: #B4B4B4;
+    border-radius: 2px;
+}
+
+.profile-container__block-avatar {
+    width: 123px;
+    height: 123px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin: 0;
+}
+
+.profile-container__block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: 500 32px/32px "Golos-UI_Medium", sans-serif;
+    color: #222222;
+    letter-spacing: -0.25;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.profile-container__block-p {
+    width: 361px;
+    height: 36px;
+    font: 400 15px/18px "Golos-UI_Regular", sans-serif;
+    text-align: center;
+    letter-spacing: -0.15px;
+    color: #222222;
+}

@@ -1,0 +1,32 @@
+/* разные файлы, font  писать 1 свойством  */
+@import url("/web_project/src/style/css/font.css");
+@import url("/web_project/src/style/css/home.css");
+@import url("/web_project/src/style/css/login.css");
+@import url("/web_project/src/style/css/profile.css");
+p {
+    font: normal 15px/18px "Golos-UI_Regular", sans-serif;
+    color: black;
+}
+
+body {
+    font: normal 15px/18px "Golos-UI_VF", sans-serif;
+}
+
+blockquote {
+    margin: 0; 
+    padding: 0;
+    max-width: 474px;
+    letter-spacing: -0.15px;
+    font: normal 15px/18px "Golos-UI_Regular", sans-serif;
+    color: #222222;
+    display: -webkit-box; /* Создает гибкую коробку для многострочного обрезания */
+    -webkit-line-clamp: 2; /* Ограничение по числу строк */
+    -webkit-box-orient: vertical; /* Вертикальное направление */
+    line-clamp: 2;
+    overflow: hidden; /* Обрезает содержимое за пределами контейнера */
+    text-overflow: ellipsis; /* Многоточие в конце */
+    line-height: 18px; /* Высота строки, чтобы соответствовать line-height в font */
+    text-align: start; /* Или center, left, right, в зависимости от выравнивания */
+
+}
+
